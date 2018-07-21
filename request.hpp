@@ -367,7 +367,7 @@ namespace cinatra {
 				}
 			}
 
-			if (pos == 0) {
+			if (pos == 0 || pos >= str.length()) {
 				return {};
 			}
 
